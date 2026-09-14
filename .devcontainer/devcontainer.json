@@ -1,0 +1,18 @@
+{
+  "name": "Robotics Website Dev",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vsliveshare.vsliveshare",
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "liveServer.settings.donotShowInfoMsg": true,
+        "liveServer.settings.port": 5500
+      }
+    }
+  },
+  "forwardPorts": [5500, 8080]
+}
