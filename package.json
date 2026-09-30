@@ -1,0 +1,26 @@
+{
+  "name": "roboticscompweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evexity/RoboticsCompWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evexity/RoboticsCompWeb/issues"
+  },
+  "homepage": "https://github.com/evexity/RoboticsCompWeb#readme",
+  "devDependencies": {
+    "vite": "^8.3.1"
+  }
+}
