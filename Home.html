@@ -10,6 +10,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<div class="Navbar">
+    <img src="./LOGO.jpeg" alt="Logo" class="logo">
+    <div class="hamburger">
+        <span class="hamburger-line">---</span>
+        <span class="hamburger-line">---</span>
+        <span class="hamburger-line">---</span>
+    </div>
+
+    <div class="nav-links" id="nav-links">
+        <a id="page1" class="NavB" href="./Home.html">Home</a>
+        <a id="page2" class="NavB" href="./About.html">About</a>
+        <a id="page3" class="NavB" href="./Teams.html">Teams</a>
+        <a id="page4" class="NavB" href="./Sponsors.html">Sponsors</a>
+        <a id="page5" class="NavB" href="./Media.html">Media</a>
+    </div>
+</div>
+
 <div class="HeroCarousel">
     <div class="Carousel-inner">
         <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
@@ -26,32 +44,25 @@
         </div>
         <label for="carousel-3" class="carousel-control prev control-1">‹</label>
         <label for="carousel-2" class="carousel-control next control-1">›</label>
-        <label for="carousel-1" class="carousel-control next control-2">›</label>
+        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
         <label for="carousel-3" class="carousel-control next control-2">›</label>
-        <label for="carousel-2" class="carousel-control next control-3">›</label>
+        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
         <label for="carousel-1" class="carousel-control next control-3">›</label>
             <ol class="carousel-indicators">
                 <li>
-                    <label for="carousel-1" class="Carousel-indicator"></label>
+                    <label for="carousel-1" class="Carousel-indicator">•</label>
                 </li>
                 <li>
-                    <label for="carousel-2" class="Carousel-indicator"></label>
+                    <label for="carousel-2" class="Carousel-indicator">•</label>
                 </li>
                 <li>
-                    <label for="carousel-3" class="Carousel-indicator"></label>
+                    <label for="carousel-3" class="Carousel-indicator">•</label>
                 </li>
             </ol>
     </div>
 </div>
 
-<div class="Navbar">
-    <img src="./LOGO.jpeg" alt="Logo" class="logo">
-    <a id="page1" class="NavB" href="./Home.html">Home</a>
-    <a id="page2" class="NavB" href="./About.html">About</a>
-    <a id="page3" class="NavB" href="./Teams.html">Teams</a>
-    <a id="page4" class="NavB" href="./Sponsors.html">Sponsors</a>
-    <a id="page5" class="NavB" href="./Media.html">Media</a>
-</div>
+
 
 
 <main>
@@ -88,32 +99,80 @@
 
 <div class="Meet-the-creators-grid">
 <div class="creator-grid-item">
-    <div><h1>Dwijesh Gontla</h1></div>
-    <hr>
+
+    <div>
+        <img src="Home Depot Logo.jpg" alt="" width="50px">
+        <h1>Dwijesh Gontla</h1>
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsam suscipit pariatur fuga quae ad eius enim reiciendis ab eos, quos quis. Ipsa assumenda magni dolore esse amet in nemo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt atque omnis voluptatum quaerat optio consequatur cum amet eveniet, deserunt distinctio ea nobis eius aspernatur iure doloremque ut harum nisi accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi nostrum odit explicabo consectetur autem ex temporibus ad iusto nam officia quae, modi dignissimos labore totam incidunt id eius est.</div>
+</div>
+
+<div class="creator-grid-item">
+
+    <div>
+        <img src="Home Depot Logo.jpg" alt="" width="50px">
+        <h1>Ruthvik Bommisetty</h1>
+    </div>
     <div>"It is better to poop in the sink than to sink in the poop"</div>
 </div>
 
 <div class="creator-grid-item">
-    <div><h1>Dwijesh Gontla</h1></div>
-    <hr>
+
+    <div>
+        <img src="Home Depot Logo.jpg" alt="" width="50px">
+        <h1>Gaman Potlacheruvu</h1>
+    </div>
     <div>"It is better to poop in the sink than to sink in the poop"</div>
 </div>
 
 <div class="creator-grid-item">
-    <div><h1>Dwijesh Gontla</h1></div>
-    <hr>
+
+    <div>
+        <img src="Home Depot Logo.jpg" alt="" width="50px">
+        <h1>Vidip Koppuravuri</h1>
+    </div>
     <div>"It is better to poop in the sink than to sink in the poop"</div>
 </div>
 
 <div class="creator-grid-item">
-    <div><h1>Dwijesh Gontla</h1></div>
-    <hr>
+
+    <div>
+        <img src="Home Depot Logo.jpg" alt="" width="50px">
+        <h1>Angel Perez-Rodriguez</h1>
+    </div>
     <div>"It is better to poop in the sink than to sink in the poop"</div>
 </div>
 
+
+<div class="creator-grid-item">
+
+    <div>
+        <img src="Home Depot Logo.jpg" alt="" width="50px">
+        <h1>Eswara Anumolu</h1>
+    </div>
+    <div>"It is better to poop in the sink than to sink in the poop"</div>
 </div>
 
+<div class="creator-grid-item">
 
+    <div>
+        <img src="Home Depot Logo.jpg" alt="" width="50px">
+        <h1>Hardik Singh</h1>
+    </div>
+    <div>A very versatile member who can do any work</div>
+</div>
+
+</div>
+
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+
+</script>
 
 </body>
 </html>
